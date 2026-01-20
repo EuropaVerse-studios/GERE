@@ -2,6 +2,7 @@
 
 GERE (Godot Enhanced Rhythmic Engine) is an open-source rhythmic game engine built with Godot Engine 4.5+, inspired by games like Friday Night Funkin’, but designed to be modular, educational and extensible.
 The goal of GERE is not to clone an existing game, but to provide a clean and understandable foundation for building rhythm-based games and experimenting with timing, audio synchronization and modding systems.
+This engine is associated to the game (coming soon) built with it that you can find on the Itch.io page.
 
 ## Features (current / planned)
 
@@ -11,8 +12,6 @@ The goal of GERE is not to clone an existing game, but to provide a clean and un
 	•	Modular architecture (core, audio, UI, modding)
 	•	Designed to be extended or embedded into custom projects
 	•	Demo project included
-
-GERE is currently work in progress and evolving step by step.
 
 ## Why GERE?
 
@@ -40,14 +39,10 @@ See the LICENSE file for details.
 ## Status
 
 Early development
+GERE is currently work in progress and evolving step by step.
 Expect breaking changes, refactors and experimentation.
 
 ## Contributing
 
 Contributions, ideas and feedback are welcome.
 This project is also meant to be a learning journey, so discussions and questions are encouraged.
-
-### Author
-
-Created by EuropaVerse studios
-Built with curiosity, stubbornness and too much love for rhythm games
