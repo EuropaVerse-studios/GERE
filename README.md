@@ -4,6 +4,7 @@ GERE (Godot Enhanced Rhythmic Engine) is an open-source rhythmic game engine bui
 The goal of GERE is not to clone an existing game, but to provide a clean and understandable foundation for building rhythm-based games and experimenting with timing, audio synchronization and modding systems.
 
 ## Features (current / planned)
+
 	•	Precise audio-based timing system
 	•	Chart-driven note spawning (JSON)
 	•	Input handling with hit / miss logic
@@ -14,6 +15,7 @@ The goal of GERE is not to clone an existing game, but to provide a clean and un
 GERE is currently work in progress and evolving step by step.
 
 ## Why GERE?
+
 	•	Built from scratch to deeply understand rhythm game mechanics
 	•	Focused on clarity over complexity
 	•	Suitable for learning Godot through a real-world system
