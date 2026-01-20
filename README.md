@@ -6,33 +6,34 @@ This engine is associated to the game (coming soon) built with it that you can f
 
 ## Features (current / planned)
 
-	•	Precise audio-based timing system
-	•	Chart-driven note spawning (JSON)
-	•	Input handling with hit / miss logic
-	•	Modular architecture (core, audio, UI, modding)
-	•	Designed to be extended or embedded into custom projects
-	•	Demo project included
+•	Precise audio-based timing system
+•	Chart-driven note spawning (JSON)
+•	Input handling with hit / miss logic
+•	Modular architecture (core, audio, UI, modding)
+•	Designed to be extended or embedded into custom projects
+•	Demo project included
 
 ## Why GERE?
 
-	•	Built from scratch to deeply understand rhythm game mechanics
-	•	Focused on clarity over complexity
-	•	Suitable for learning Godot through a real-world system
-	•	Open-source and community-friendly
+•	Built from scratch to deeply understand rhythm game mechanics
+•	Focused on clarity over complexity
+•	Suitable for learning Godot through a real-world system
+•	Open-source and community-friendly
 
 ## Project Structure
 
-	•	addons/gere/ → main engine code
-	•	demo/ → example scenes and charts
-	•	docs/ → technical documentation and design notes
+•	addons/gere/ → main engine code
+•	demo/ → example scenes and charts
+•	docs/ → technical documentation and design notes
 
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3).
 You are free to use, modify and distribute this project, as long as:
-	•	the source code remains open
-	•	modifications are shared under the same license
-	•	proper credit is given
+
+•	the source code remains open
+•	modifications are shared under the same license
+•	proper credit is given
 
 See the LICENSE file for details.
 

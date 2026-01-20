@@ -2,6 +2,5 @@
 .godot/
 /android/
 
-#GERE specific ignores
-.beta-engine/
-private-assets/
+# GERE specific ignores
+private-asset/
