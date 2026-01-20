@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://brl0ptsu2m6l5"]
+
+[ext_resource type="Script" uid="uid://bgxjdekwbeo3a" path="res://LoadingScreen.gd" id="1_ghsbh"]
+[ext_resource type="Texture2D" uid="uid://6whxn14jxsfn" path="res://icon.svg" id="2_dhqi2"]
+
+[node name="LoadingScreen" type="Node2D"]
+script = ExtResource("1_ghsbh")
+
+[node name="StudioLabel" type="Label" parent="."]
+offset_left = 450.0
+offset_top = 250.0
+offset_right = 490.0
+offset_bottom = 273.0
+
+[node name="PoweredByContainer" type="HBoxContainer" parent="."]
+offset_left = 450.0
+offset_top = 250.0
+offset_right = 781.0
+offset_bottom = 378.0
+
+[node name="PoweredByLabel" type="Label" parent="PoweredByContainer"]
+layout_mode = 2
+text = "Powered by Godot Engine"
+
+[node name="GodotLogo" type="TextureRect" parent="PoweredByContainer"]
+layout_mode = 2
+texture = ExtResource("2_dhqi2")
+
+[node name="QuoteLabel" type="Label" parent="."]
+offset_left = 450.0
+offset_top = 305.0
+offset_right = 490.0
+offset_bottom = 328.0
+
+[node name="GameTitleLabel" type="Label" parent="."]
+offset_left = 450.0
+offset_top = 250.0
+offset_right = 490.0
+offset_bottom = 273.0
+
+[node name="PressAnyKeyLabel" type="Label" parent="."]
+offset_left = 490.0
+offset_top = 550.0
+offset_right = 701.0
+offset_bottom = 573.0
+text = "Press any key to continue..."
