@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://brl0ptsu2m6l5"]
 
-[ext_resource type="Script" uid="uid://bgxjdekwbeo3a" path="res://LoadingScreen.gd" id="1_ghsbh"]
+[ext_resource type="Script" uid="uid://bgxjdekwbeo3a" path="res://engine/LoadingScreen.gd" id="1_ghsbh"]
 [ext_resource type="Texture2D" uid="uid://6whxn14jxsfn" path="res://icon.svg" id="2_dhqi2"]
 
 [node name="LoadingScreen" type="Node2D"]

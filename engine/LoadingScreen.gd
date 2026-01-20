@@ -17,7 +17,7 @@ func _ready():
 		node.visible = false
 
 	# Carica frasi dal file .txt
-	var file = FileAccess.open("res://quotes.txt", FileAccess.READ)
+	var file = FileAccess.open("res://data/IntroQuotes/quotes.txt", FileAccess.READ)
 	if file:
 		quotes = file.get_as_text().split("\n")
 		file.close()
@@ -68,4 +68,4 @@ func fade_in_then_out(node: CanvasItem, fade_in_time: float, stay_time: float, f
 # === Rileva il tasto premuto ===
 func _unhandled_input(event: InputEvent):
 	if press_any_key_label.visible and event.is_pressed():
-		get_tree().change_scene("res://MainScreen.tscn")
+		get_tree().change_scene("res://enigine/MainScreen.tscn")
