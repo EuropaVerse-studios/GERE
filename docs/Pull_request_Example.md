@@ -17,41 +17,41 @@ Summary
 
 This PR adds a fully functional loading screen for GERE. It includes:
 
--Fade-in → stay → fade-out for all UI elements
--Random quote display from quotes.txt
--Logo and "Powered by Godot Engine" sequence
--"Press any key to continue" functionality
--Compatible with Godot 4.5 using modern await and Tween API
+- Fade-in → stay → fade-out for all UI elements
+- Random quote display from quotes.txt
+- Logo and "Powered by Godot Engine" sequence
+- "Press any key to continue" functionality
+- Compatible with Godot 4.5 using modern await and Tween API
 
 Why
 
--Improves user experience during game startup
--Provides a clear template for future loading screens
--Demonstrates proper use of async await with Tween in Godot 4.5
+- Improves user experience during game startup
+- Provides a clear template for future loading screens
+- Demonstrates proper use of async await with Tween in Godot 4.5
 
 How to Test
 
--Checkout the dev branch
--Open LoadingScreen.tscn in Godot
--Run the scene and verify:
+- Checkout the dev branch
+- Open LoadingScreen.tscn in Godot
+- Run the scene and verify:
     All elements appear in sequence with fade-in/out
     A random quote is displayed
     The last prompt waits for any key press before changing scene
--Confirm that no errors appear in the console
+- Confirm that no errors appear in the console
 
 Checklist (to help reviewers)
 
--Code follows GERE project coding style
--All features have been tested locally
--quotes.txt exists in res:// with at least one quote
--Scene changes work correctly when pressing a key
--Tween animations run smoothly in Godot 4.5
+- Code follows GERE project coding style
+- All features have been tested locally
+- quotes.txt exists in res:// with at least one quote
+- Scene changes work correctly when pressing a key
+- Tween animations run smoothly in Godot 4.5
 
 Notes
 
--This loading screen serves as a template for future features
--Animation durations can be adjusted in _ready() if needed
--Any future changes should be documented and reviewed in PR
+- This loading screen serves as a template for future features
+- Animation durations can be adjusted in _ready() if needed
+- Any future changes should be documented and reviewed in PR
 
 ## Explanation of PR Sections
 
