@@ -22,6 +22,7 @@ SceneLoader="*res://engine/core/SceneLoader.gd"
 [file_customization]
 
 folder_colors={
+"res://demo/": "yellow",
 "res://engine/": "red",
 "res://game/": "green"
 }

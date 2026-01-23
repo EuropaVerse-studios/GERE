@@ -1,62 +1,34 @@
 [gd_scene load_steps=2 format=3 uid="uid://c78gm3mw2a4pa"]
 
-[ext_resource type="Script" uid="uid://c3vnp3l72rd87" path="res://engine/systems/Note.gd" id="1_4wap7"]
+[ext_resource type="Script" uid="uid://d2gulh1ege52b" path="res://demo/scenes/DemoMain.gd" id="1_4wap7"]
 
 [node name="DemoMain" type="Node2D"]
+script = ExtResource("1_4wap7")
 
-[node name="ColLeft" type="ColorRect" parent="."]
+[node name="ColumnLeft" type="ColorRect" parent="."]
 offset_left = 437.0
 offset_top = 372.0
 offset_right = 477.0
 offset_bottom = 572.0
+color = Color(0.14901961, 0.09411765, 1, 1)
 
-[node name="note1" type="ColorRect" parent="ColLeft"]
-layout_mode = 0
-offset_left = -1.0
-offset_top = 159.0
-offset_right = 39.0
-offset_bottom = 199.0
-color = Color(0.32941177, 1, 1, 1)
-script = ExtResource("1_4wap7")
-
-[node name="ColRight" type="ColorRect" parent="."]
+[node name="ColumnRight" type="ColorRect" parent="."]
 offset_left = 673.0
 offset_top = 371.0
 offset_right = 713.0
 offset_bottom = 571.0
+color = Color(0.14901961, 1, 1, 1)
 
-[node name="note4" type="ColorRect" parent="ColRight"]
-layout_mode = 0
-offset_top = 161.0
-offset_right = 40.0
-offset_bottom = 201.0
-color = Color(0.6523459, 0.0036602474, 0.9634308, 1)
-script = ExtResource("1_4wap7")
-
-[node name="ColUp" type="ColorRect" parent="."]
+[node name="ColumnUp" type="ColorRect" parent="."]
 offset_left = 592.0
 offset_top = 372.0
 offset_right = 632.0
 offset_bottom = 572.0
+color = Color(0.6523459, 0.0036602474, 0.9634308, 1)
 
-[node name="note3" type="ColorRect" parent="ColUp"]
-layout_mode = 0
-offset_top = 159.0
-offset_right = 40.0
-offset_bottom = 199.0
-color = Color(0.2163257, 0.7049003, 0, 1)
-script = ExtResource("1_4wap7")
-
-[node name="ColDown" type="ColorRect" parent="."]
+[node name="ColumnDown" type="ColorRect" parent="."]
 offset_left = 511.0
 offset_top = 371.0
 offset_right = 551.0
 offset_bottom = 571.0
-
-[node name="note2" type="ColorRect" parent="ColDown"]
-layout_mode = 0
-offset_top = 160.0
-offset_right = 40.0
-offset_bottom = 200.0
-color = Color(0.79853904, 0.010139657, 0.2093206, 1)
-script = ExtResource("1_4wap7")
+color = Color(0.2163257, 0.7049003, 0, 1)

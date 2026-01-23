@@ -1,8 +1,11 @@
 [gd_scene load_steps=2 format=3 uid="uid://y3ahu2sqpv3t"]
 
-[ext_resource type="Script" uid="uid://c3vnp3l72rd87" path="res://engine/systems/Note.gd" id="1_1duso"]
+[ext_resource type="Script" uid="uid://c3vnp3l72rd87" path="res://engine/rhythm/Note.gd" id="1_1duso"]
 
 [node name="Note" type="ColorRect"]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_left = 505.0
+offset_top = 61.0
+offset_right = 545.0
+offset_bottom = 101.0
+color = Color(0.14901961, 0.09411765, 1, 1)
 script = ExtResource("1_1duso")
