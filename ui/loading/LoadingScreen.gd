@@ -68,4 +68,4 @@ func fade_in_then_out(node: CanvasItem, fade_in_time: float, stay_time: float, f
 # === Rileva il tasto premuto ===
 func _unhandled_input(event: InputEvent):
 	if press_any_key_label.visible and event.is_pressed():
-		get_tree().change_scene("res://game/scenes/MainMenu.tscn")
+		SceneLoader.change_scene("res://demo/scenes/DemoMain.tscn")

@@ -1,25 +1,25 @@
 {
-  "id": 101,
-  "status": "success",
-  "active": true,
-  "details": {
-    "progetto": "Test Placeholder",
-    "versione": 1.2,
-    "descrizione": null
-  },
-  "tags": [
-    "json",
-    "test",
-    "data"
-  ],
-  "metadati": [
-    {
-      "chiave": "ambiente",
-      "valore": "sviluppo"
-    },
-    {
-      "chiave": "browser",
-      "valore": "chrome"
-    }
-  ]
+	"id": 101.0,
+	"status": "success",
+	"active": true,
+	"details": {
+		"progetto": "Test Placeholder",
+		"versione": 1.2,
+		"descrizione": null
+	},
+	"tags": [
+		"json",
+		"test",
+		"data"
+	],
+	"metadati": [
+		{
+			"chiave": "ambiente",
+			"valore": "sviluppo"
+		},
+		{
+			"chiave": "browser",
+			"valore": "chrome"
+		}
+	]
 }
